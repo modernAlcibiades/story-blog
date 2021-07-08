@@ -1,4 +1,5 @@
 # Site settings
+<<<<<<< HEAD
 title: "Yury Voloshin"
 email: yvoloshin01@gmail.com
 description: "Yury Voloshin's Personal Site"
@@ -22,10 +23,40 @@ stackoverflow_link:
 # Footer
 footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+=======
+title: "Story Blog"
+email: mk3916@columbia.edu
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+title_description: "Story blog to keep track of various elements of my writing."
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+#google_analytics: 
+#disqus_account: 
+github_repository: https://github.com/modernAlcibiades/story-blog
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+# twitter_username: 
+# github_username: modernAlcibiades
+# instagram_username: 
+# reddit_username: 
+# linkedin_link:
+# google_plus_link: 
+# stackoverflow_link: 
+# xing_link:
+# facebook_link:
+
+# Footer
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/modernAlcibiades/story-blog\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+>>>>>>> gh-pages
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 permalink: pretty
 exclude: [vendor]
